@@ -18,9 +18,9 @@ public class NewSort {
   
             // Swap the found minimum element with the first 
             // element 
-            int temp = arr[min_idx]; 
+            int temp1 = arr[min_idx]; 
             arr[min_idx] = arr[i]; 
-            arr[i] = temp; 
+            arr[i] = temp1; 
         } 
     }
 
